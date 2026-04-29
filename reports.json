@@ -1,86 +1,131 @@
 {
-  "后端求职情报": [
+  "updated": "2026-04-29T18:54:11.696961",
+  "categories": [
     {
-      "name": "后端求职情报日报_2026-04-25_1700.md",
-      "dir": "reports/job-hunting/",
-      "path": "reports/job-hunting/后端求职情报日报_2026-04-25_1700.md"
+      "slug": "job-hunting",
+      "name": "后端求职情报",
+      "icon": "🔍",
+      "total": 11,
+      "latest_date": "2026-04-29",
+      "months": [
+        {
+          "key": "2026-04",
+          "label": "2026年04月",
+          "items": [
+            {
+              "name": "2026-04-29-1700-后端求职情报日报.md",
+              "path": "reports/job-hunting/2026-04-29-1700-后端求职情报日报.md",
+              "date": "2026-04-29",
+              "label": "2026-04-29-1700-后端求职情报日报"
+            },
+            {
+              "name": "2026-04-29.md",
+              "path": "reports/job-hunting/2026-04-29.md",
+              "date": "2026-04-29",
+              "label": "2026-04-29"
+            },
+            {
+              "name": "2026-04-28-1700-后端求职情报日报.md",
+              "path": "reports/job-hunting/2026-04-28-1700-后端求职情报日报.md",
+              "date": "2026-04-28",
+              "label": "2026-04-28-1700-后端求职情报日报"
+            },
+            {
+              "name": "2026-04-28.md",
+              "path": "reports/job-hunting/2026-04-28.md",
+              "date": "2026-04-28",
+              "label": "2026-04-28"
+            },
+            {
+              "name": "2026-04-27-1700.md",
+              "path": "reports/job-hunting/2026-04-27-1700.md",
+              "date": "2026-04-27",
+              "label": "2026-04-27-1700"
+            },
+            {
+              "name": "2026-04-27.md",
+              "path": "reports/job-hunting/2026-04-27.md",
+              "date": "2026-04-27",
+              "label": "2026-04-27"
+            },
+            {
+              "name": "2026-04-26-1700.md",
+              "path": "reports/job-hunting/2026-04-26-1700.md",
+              "date": "2026-04-26",
+              "label": "2026-04-26-1700"
+            },
+            {
+              "name": "2026-04-26.md",
+              "path": "reports/job-hunting/2026-04-26.md",
+              "date": "2026-04-26",
+              "label": "2026-04-26"
+            },
+            {
+              "name": "2026-04-25-big-tech.md",
+              "path": "reports/job-hunting/2026-04-25-big-tech.md",
+              "date": "2026-04-25",
+              "label": "2026-04-25-big-tech"
+            },
+            {
+              "name": "2026-04-25.md",
+              "path": "reports/job-hunting/2026-04-25.md",
+              "date": "2026-04-25",
+              "label": "2026-04-25"
+            },
+            {
+              "name": "后端求职情报日报_2026-04-25_1700.md",
+              "path": "reports/job-hunting/后端求职情报日报_2026-04-25_1700.md",
+              "date": "2026-04-25",
+              "label": "后端求职情报日报_2026-04-25_1700"
+            }
+          ]
+        }
+      ]
     },
     {
-      "name": "2026-04-29.md",
-      "dir": "reports/job-hunting/",
-      "path": "reports/job-hunting/2026-04-29.md"
-    },
-    {
-      "name": "2026-04-29-1700-后端求职情报日报.md",
-      "dir": "reports/job-hunting/",
-      "path": "reports/job-hunting/2026-04-29-1700-后端求职情报日报.md"
-    },
-    {
-      "name": "2026-04-28.md",
-      "dir": "reports/job-hunting/",
-      "path": "reports/job-hunting/2026-04-28.md"
-    },
-    {
-      "name": "2026-04-28-1700-后端求职情报日报.md",
-      "dir": "reports/job-hunting/",
-      "path": "reports/job-hunting/2026-04-28-1700-后端求职情报日报.md"
-    },
-    {
-      "name": "2026-04-27.md",
-      "dir": "reports/job-hunting/",
-      "path": "reports/job-hunting/2026-04-27.md"
-    },
-    {
-      "name": "2026-04-27-1700.md",
-      "dir": "reports/job-hunting/",
-      "path": "reports/job-hunting/2026-04-27-1700.md"
-    },
-    {
-      "name": "2026-04-26.md",
-      "dir": "reports/job-hunting/",
-      "path": "reports/job-hunting/2026-04-26.md"
-    },
-    {
-      "name": "2026-04-26-1700.md",
-      "dir": "reports/job-hunting/",
-      "path": "reports/job-hunting/2026-04-26-1700.md"
-    },
-    {
-      "name": "2026-04-25.md",
-      "dir": "reports/job-hunting/",
-      "path": "reports/job-hunting/2026-04-25.md"
-    },
-    {
-      "name": "2026-04-25-big-tech.md",
-      "dir": "reports/job-hunting/",
-      "path": "reports/job-hunting/2026-04-25-big-tech.md"
-    }
-  ],
-  "大模型行业情报": [
-    {
-      "name": "2026-04-29.md",
-      "dir": "reports/llm/",
-      "path": "reports/llm/2026-04-29.md"
-    },
-    {
-      "name": "2026-04-28.md",
-      "dir": "reports/llm/",
-      "path": "reports/llm/2026-04-28.md"
-    },
-    {
-      "name": "2026-04-27.md",
-      "dir": "reports/llm/",
-      "path": "reports/llm/2026-04-27.md"
-    },
-    {
-      "name": "2026-04-26-大模型行业情报日报.md",
-      "dir": "reports/llm/",
-      "path": "reports/llm/2026-04-26-大模型行业情报日报.md"
-    },
-    {
-      "name": "2026-04-25.md",
-      "dir": "reports/llm/",
-      "path": "reports/llm/2026-04-25.md"
+      "slug": "llm",
+      "name": "大模型行业情报",
+      "icon": "🤖",
+      "total": 5,
+      "latest_date": "2026-04-29",
+      "months": [
+        {
+          "key": "2026-04",
+          "label": "2026年04月",
+          "items": [
+            {
+              "name": "2026-04-29.md",
+              "path": "reports/llm/2026-04-29.md",
+              "date": "2026-04-29",
+              "label": "2026-04-29"
+            },
+            {
+              "name": "2026-04-28.md",
+              "path": "reports/llm/2026-04-28.md",
+              "date": "2026-04-28",
+              "label": "2026-04-28"
+            },
+            {
+              "name": "2026-04-27.md",
+              "path": "reports/llm/2026-04-27.md",
+              "date": "2026-04-27",
+              "label": "2026-04-27"
+            },
+            {
+              "name": "2026-04-26-大模型行业情报日报.md",
+              "path": "reports/llm/2026-04-26-大模型行业情报日报.md",
+              "date": "2026-04-26",
+              "label": "2026-04-26-大模型行业情报日报"
+            },
+            {
+              "name": "2026-04-25.md",
+              "path": "reports/llm/2026-04-25.md",
+              "date": "2026-04-25",
+              "label": "2026-04-25"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
