@@ -1,1 +1,173 @@
-hello world
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>跑的快哥哥 · 情报日报</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background:#f5f5f5; color:#333; }
+  .app { display:flex; min-height:100vh; }
+  
+  /* 侧栏 */
+  .sidebar {
+    width:280px; background:#1a1a2e; color:#eee; padding:20px 0;
+    position:fixed; top:0; left:0; bottom:0; overflow-y:auto;
+    z-index:10;
+  }
+  .sidebar h1 { font-size:18px; padding:0 20px 16px; border-bottom:1px solid #333; margin-bottom:8px; }
+  .sidebar h1 span { font-size:12px; color:#888; display:block; margin-top:4px; }
+  .sidebar .section { margin:12px 0; }
+  .sidebar .section-title { font-size:12px; color:#888; padding:8px 20px; text-transform:uppercase; letter-spacing:1px; }
+  .sidebar a { display:block; padding:6px 20px; color:#ccc; text-decoration:none; font-size:13px; transition:.2s; }
+  .sidebar a:hover { color:#fff; background:rgba(255,255,255,0.05); }
+  .sidebar a.active { color:#4fc3f7; background:rgba(79,195,247,0.1); border-right:3px solid #4fc3f7; }
+  .sidebar .count { font-size:11px; color:#666; margin-left:4px; }
+  
+  /* 主体 */
+  .main { margin-left:280px; flex:1; padding:40px 60px; max-width:900px; }
+  .main .placeholder { text-align:center; color:#aaa; margin-top:120px; }
+  .main .placeholder .icon { font-size:64px; margin-bottom:20px; }
+  
+  /* Markdown 渲染 */
+  .content { background:#fff; border-radius:8px; padding:40px 48px; box-shadow:0 1px 4px rgba(0,0,0,0.06); }
+  .content h1 { font-size:24px; margin:24px 0 16px; color:#1a1a2e; }
+  .content h2 { font-size:20px; margin:20px 0 12px; color:#333; border-bottom:2px solid #4fc3f7; padding-bottom:6px; }
+  .content h3 { font-size:16px; margin:16px 0 8px; color:#555; }
+  .content p { line-height:1.8; margin:10px 0; }
+  .content ul,.content ol { margin:10px 0; padding-left:24px; }
+  .content li { line-height:1.8; margin:4px 0; }
+  .content code { background:#f0f0f0; padding:2px 6px; border-radius:3px; font-size:13px; }
+  .content pre { background:#1a1a2e; color:#e0e0e0; padding:16px 20px; border-radius:6px; overflow-x:auto; margin:12px 0; }
+  .content pre code { background:none; padding:0; color:inherit; }
+  .content blockquote { border-left:4px solid #4fc3f7; padding:8px 16px; margin:12px 0; background:#f0f8ff; color:#555; }
+  .content table { border-collapse:collapse; width:100%; margin:12px 0; }
+  .content th,.content td { border:1px solid #ddd; padding:8px 12px; text-align:left; }
+  .content th { background:#f7f7f7; }
+  .content a { color:#0288d1; }
+  .content strong { color:#222; }
+  .content hr { border:none; border-top:1px solid #eee; margin:24px 0; }
+  
+  /* 移动端 */
+  @media (max-width:768px) {
+    .sidebar { width:100%; height:auto; position:relative; }
+    .main { margin-left:0; padding:20px; }
+    .content { padding:20px; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <nav class="sidebar">
+    <h1>📊 情报日报<span>跑的快哥哥</span></h1>
+    <div class="section">
+      <div class="section-title">🔍 后端求职情报</div>
+      <div id="nav-job"></div>
+    </div>
+    <div class="section">
+      <div class="section-title">🤖 大模型行业情报</div>
+      <div id="nav-llm"></div>
+    </div>
+  </nav>
+  <main class="main">
+    <div id="view" class="placeholder">
+      <div class="icon">📋</div>
+      <p>左侧选择一份日报查看</p>
+    </div>
+  </main>
+</div>
+
+<script>
+// 配置：日报文件列表（按时间倒序）
+const REPORTS = {
+  "后端求职情报": {
+    dir: "reports/job-hunting/",
+    files: [
+      "2026-04-29-1700-后端求职情报日报.md",
+      "2026-04-29.md",
+      "2026-04-28-1700-后端求职情报日报.md",
+      "2026-04-28.md",
+      "2026-04-27-1700.md",
+      "2026-04-27.md",
+      "2026-04-26-1700.md",
+      "2026-04-26.md",
+      "2026-04-25-big-tech.md",
+      "2026-04-25.md",
+      "后端求职情报日报_2026-04-25_1700.md"
+    ]
+  },
+  "大模型行业情报": {
+    dir: "reports/llm/",
+    files: [
+      "2026-04-29.md",
+      "2026-04-28.md",
+      "2026-04-27.md",
+      "2026-04-26-大模型行业情报日报.md",
+      "2026-04-25.md"
+    ]
+  }
+};
+
+function formatLabel(filename) {
+  // 提取日期并用友好格式显示
+  let label = filename.replace(/\.md$/, '');
+  // 把 2026-04-29-1700-xxx 变成 "04-29 17:00 · xxx"
+  label = label.replace(/^(\d{4})-(\d{2})-(\d{2})-(\d{4})-(.+)/, '$2-$3 $4 · $5');
+  label = label.replace(/^(\d{4})-(\d{2})-(\d{2})-(.+)/, '$2-$3 · $4');
+  label = label.replace(/^(\d{4})-(\d{2})-(\d{2})$/, '$2-$3');
+  label = label.replace(/^后端求职情报日报_(\d{4})-(\d{2})-(\d{2})_/, '$2-$3 $4 · ');
+  return label;
+}
+
+// 构建导航
+function buildNav() {
+  const navJob = document.getElementById('nav-job');
+  const navLlm = document.getElementById('nav-llm');
+  
+  Object.entries(REPORTS).forEach(([category, {dir, files}]) => {
+    const container = category === '后端求职情报' ? navJob : navLlm;
+    files.forEach(f => {
+      const a = document.createElement('a');
+      a.href = `#${dir}${f}`;
+      a.textContent = formatLabel(f);
+      a.dataset.path = `${dir}${f}`;
+      a.onclick = (e) => {
+        e.preventDefault();
+        loadReport(a.dataset.path);
+        document.querySelectorAll('.sidebar a').forEach(x => x.classList.remove('active'));
+        a.classList.add('active');
+      };
+      container.appendChild(a);
+    });
+  });
+}
+
+// 加载并渲染报告
+async function loadReport(path) {
+  const view = document.getElementById('view');
+  view.innerHTML = '<div class="content"><p style="text-align:center;color:#aaa;">加载中...</p></div>';
+  
+  try {
+    const resp = await fetch(path);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const md = await resp.text();
+    view.innerHTML = `<div class="content">${marked.parse(md)}</div>`;
+  } catch (err) {
+    view.innerHTML = `<div class="content" style="text-align:center;color:#e74c3c;">❌ 加载失败: ${err.message}</div>`;
+  }
+}
+
+// 页面初始化
+buildNav();
+
+// 如果 URL 有 hash，自动加载对应报告
+if (location.hash) {
+  const path = location.hash.slice(1);
+  loadReport(path);
+  const link = document.querySelector(`[data-path="${path}"]`);
+  if (link) link.classList.add('active');
+}
+</script>
+</body>
+</html>
