@@ -1,0 +1,86 @@
+{
+  "后端求职情报": [
+    {
+      "name": "后端求职情报日报_2026-04-25_1700.md",
+      "dir": "reports/job-hunting/",
+      "path": "reports/job-hunting/后端求职情报日报_2026-04-25_1700.md"
+    },
+    {
+      "name": "2026-04-29.md",
+      "dir": "reports/job-hunting/",
+      "path": "reports/job-hunting/2026-04-29.md"
+    },
+    {
+      "name": "2026-04-29-1700-后端求职情报日报.md",
+      "dir": "reports/job-hunting/",
+      "path": "reports/job-hunting/2026-04-29-1700-后端求职情报日报.md"
+    },
+    {
+      "name": "2026-04-28.md",
+      "dir": "reports/job-hunting/",
+      "path": "reports/job-hunting/2026-04-28.md"
+    },
+    {
+      "name": "2026-04-28-1700-后端求职情报日报.md",
+      "dir": "reports/job-hunting/",
+      "path": "reports/job-hunting/2026-04-28-1700-后端求职情报日报.md"
+    },
+    {
+      "name": "2026-04-27.md",
+      "dir": "reports/job-hunting/",
+      "path": "reports/job-hunting/2026-04-27.md"
+    },
+    {
+      "name": "2026-04-27-1700.md",
+      "dir": "reports/job-hunting/",
+      "path": "reports/job-hunting/2026-04-27-1700.md"
+    },
+    {
+      "name": "2026-04-26.md",
+      "dir": "reports/job-hunting/",
+      "path": "reports/job-hunting/2026-04-26.md"
+    },
+    {
+      "name": "2026-04-26-1700.md",
+      "dir": "reports/job-hunting/",
+      "path": "reports/job-hunting/2026-04-26-1700.md"
+    },
+    {
+      "name": "2026-04-25.md",
+      "dir": "reports/job-hunting/",
+      "path": "reports/job-hunting/2026-04-25.md"
+    },
+    {
+      "name": "2026-04-25-big-tech.md",
+      "dir": "reports/job-hunting/",
+      "path": "reports/job-hunting/2026-04-25-big-tech.md"
+    }
+  ],
+  "大模型行业情报": [
+    {
+      "name": "2026-04-29.md",
+      "dir": "reports/llm/",
+      "path": "reports/llm/2026-04-29.md"
+    },
+    {
+      "name": "2026-04-28.md",
+      "dir": "reports/llm/",
+      "path": "reports/llm/2026-04-28.md"
+    },
+    {
+      "name": "2026-04-27.md",
+      "dir": "reports/llm/",
+      "path": "reports/llm/2026-04-27.md"
+    },
+    {
+      "name": "2026-04-26-大模型行业情报日报.md",
+      "dir": "reports/llm/",
+      "path": "reports/llm/2026-04-26-大模型行业情报日报.md"
+    },
+    {
+      "name": "2026-04-25.md",
+      "dir": "reports/llm/",
+      "path": "reports/llm/2026-04-25.md"
+    }
+  ]
+}
