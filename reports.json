@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T17:31:14.519858",
+  "updated": "2026-05-09T07:14:01.565420",
   "categories": [
     {
       "slug": "job-hunting",
@@ -200,13 +200,25 @@
       "slug": "llm",
       "name": "大模型行业情报",
       "icon": "🤖",
-      "total": 20,
-      "latest_date": "2026-05-08",
+      "total": 22,
+      "latest_date": "2026-05-09",
       "months": [
         {
           "key": "2026-05",
           "label": "2026年05月",
           "items": [
+            {
+              "name": "2026-05-09.md",
+              "path": "reports/llm/2026-05-09.md",
+              "date": "2026-05-09",
+              "label": "2026-05-09"
+            },
+            {
+              "name": "2026-05-08-大模型行业情报日报.md",
+              "path": "reports/llm/2026-05-08-大模型行业情报日报.md",
+              "date": "2026-05-08",
+              "label": "2026-05-08-大模型行业情报日报"
+            },
             {
               "name": "2026-05-08-llm-daily.md",
               "path": "reports/llm/2026-05-08-llm-daily.md",
@@ -341,13 +353,19 @@
       "slug": "interview-qa",
       "name": "每日面试题",
       "icon": "📝",
-      "total": 2,
-      "latest_date": "2026-05-07",
+      "total": 3,
+      "latest_date": "2026-05-08",
       "months": [
         {
           "key": "2026-05",
           "label": "2026年05月",
           "items": [
+            {
+              "name": "2026-05-08-每日面试题.md",
+              "path": "reports/interview-qa/2026-05-08-每日面试题.md",
+              "date": "2026-05-08",
+              "label": "2026-05-08-每日面试题"
+            },
             {
               "name": "2026-05-07-每日面试题.md",
               "path": "reports/interview-qa/2026-05-07-每日面试题.md",
