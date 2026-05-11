@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-11T09:06:37.745445",
+  "updated": "2026-05-11T18:12:16.989666",
   "categories": [
     {
       "slug": "job-hunting",
       "name": "后端求职情报",
       "icon": "🔍",
-      "total": 34,
+      "total": 35,
       "latest_date": "2026-05-11",
       "months": [
         {
@@ -17,6 +17,12 @@
               "path": "reports/job-hunting/2026-05-11.md",
               "date": "2026-05-11",
               "label": "2026-05-11"
+            },
+            {
+              "name": "2026-05-11-1700-后端求职情报日报.md",
+              "path": "reports/job-hunting/2026-05-11-1700-后端求职情报日报.md",
+              "date": "2026-05-11",
+              "label": "2026-05-11-1700-后端求职情报日报"
             },
             {
               "name": "2026-05-10.md",
@@ -407,13 +413,19 @@
       "slug": "interview-qa",
       "name": "每日面试题",
       "icon": "📝",
-      "total": 5,
-      "latest_date": "2026-05-10",
+      "total": 6,
+      "latest_date": "2026-05-11",
       "months": [
         {
           "key": "2026-05",
           "label": "2026年05月",
           "items": [
+            {
+              "name": "2026-05-11-每日面试题.md",
+              "path": "reports/interview-qa/2026-05-11-每日面试题.md",
+              "date": "2026-05-11",
+              "label": "2026-05-11-每日面试题"
+            },
             {
               "name": "2026-05-10-每日面试题.md",
               "path": "reports/interview-qa/2026-05-10-每日面试题.md",
