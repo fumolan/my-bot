@@ -1,17 +1,23 @@
 {
-  "updated": "2026-05-19T20:37:15.873800",
+  "updated": "2026-05-20T09:08:03.788982",
   "categories": [
     {
       "slug": "job-hunting",
       "name": "后端求职情报",
       "icon": "🔍",
-      "total": 51,
-      "latest_date": "2026-05-19",
+      "total": 52,
+      "latest_date": "2026-05-20",
       "months": [
         {
           "key": "2026-05",
           "label": "2026年05月",
           "items": [
+            {
+              "name": "2026-05-20-0900-后端求职情报日报-早间.md",
+              "path": "reports/job-hunting/2026-05-20-0900-后端求职情报日报-早间.md",
+              "date": "2026-05-20",
+              "label": "2026-05-20-0900-后端求职情报日报-早间"
+            },
             {
               "name": "2026-05-19-1700-后端求职情报日报.md",
               "path": "reports/job-hunting/2026-05-19-1700-后端求职情报日报.md",
@@ -332,13 +338,19 @@
       "slug": "llm",
       "name": "大模型行业情报",
       "icon": "🤖",
-      "total": 44,
-      "latest_date": "2026-05-19",
+      "total": 45,
+      "latest_date": "2026-05-20",
       "months": [
         {
           "key": "2026-05",
           "label": "2026年05月",
           "items": [
+            {
+              "name": "2026-05-20.md",
+              "path": "reports/llm/2026-05-20.md",
+              "date": "2026-05-20",
+              "label": "2026-05-20"
+            },
             {
               "name": "2026-05-19.md",
               "path": "reports/llm/2026-05-19.md",
