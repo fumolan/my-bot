@@ -1,17 +1,23 @@
 {
-  "updated": "2026-06-05T20:36:50.879182",
+  "updated": "2026-06-07T07:17:32.156500",
   "categories": [
     {
       "slug": "job-hunting",
       "name": "后端求职情报",
       "icon": "🔍",
-      "total": 83,
-      "latest_date": "2026-06-05",
+      "total": 84,
+      "latest_date": "2026-06-06",
       "months": [
         {
           "key": "2026-06",
           "label": "2026年06月",
           "items": [
+            {
+              "name": "2026-06-06.md",
+              "path": "reports/job-hunting/2026-06-06.md",
+              "date": "2026-06-06",
+              "label": "2026-06-06"
+            },
             {
               "name": "后端求职情报日报_2026-06-05_1700.md",
               "path": "reports/job-hunting/后端求职情报日报_2026-06-05_1700.md",
@@ -530,13 +536,31 @@
       "slug": "llm",
       "name": "大模型行业情报",
       "icon": "🤖",
-      "total": 78,
-      "latest_date": "2026-06-05",
+      "total": 81,
+      "latest_date": "2026-06-07",
       "months": [
         {
           "key": "2026-06",
           "label": "2026年06月",
           "items": [
+            {
+              "name": "2026-06-07.md",
+              "path": "reports/llm/2026-06-07.md",
+              "date": "2026-06-07",
+              "label": "2026-06-07"
+            },
+            {
+              "name": "2026-06-06.md",
+              "path": "reports/llm/2026-06-06.md",
+              "date": "2026-06-06",
+              "label": "2026-06-06"
+            },
+            {
+              "name": "2026-06-06-晚间增量.md",
+              "path": "reports/llm/2026-06-06-晚间增量.md",
+              "date": "2026-06-06",
+              "label": "2026-06-06-晚间增量"
+            },
             {
               "name": "2026-06-05.md",
               "path": "reports/llm/2026-06-05.md",
@@ -1025,9 +1049,21 @@
       "slug": "interview-qa",
       "name": "每日面试题",
       "icon": "📝",
-      "total": 20,
-      "latest_date": "2026-05-26",
+      "total": 21,
+      "latest_date": "2026-06-06",
       "months": [
+        {
+          "key": "2026-06",
+          "label": "2026年06月",
+          "items": [
+            {
+              "name": "2026-06-06-每日面试题.md",
+              "path": "reports/interview-qa/2026-06-06-每日面试题.md",
+              "date": "2026-06-06",
+              "label": "2026-06-06-每日面试题"
+            }
+          ]
+        },
         {
           "key": "2026-05",
           "label": "2026年05月",
