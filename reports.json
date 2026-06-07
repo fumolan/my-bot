@@ -1,17 +1,29 @@
 {
-  "updated": "2026-06-07T07:17:32.156500",
+  "updated": "2026-06-07T20:35:55.618746",
   "categories": [
     {
       "slug": "job-hunting",
       "name": "后端求职情报",
       "icon": "🔍",
-      "total": 84,
-      "latest_date": "2026-06-06",
+      "total": 86,
+      "latest_date": "2026-06-07",
       "months": [
         {
           "key": "2026-06",
           "label": "2026年06月",
           "items": [
+            {
+              "name": "后端求职情报日报_2026-06-07_1700.md",
+              "path": "reports/job-hunting/后端求职情报日报_2026-06-07_1700.md",
+              "date": "2026-06-07",
+              "label": "后端求职情报日报_2026-06-07_1700"
+            },
+            {
+              "name": "2026-06-07.md",
+              "path": "reports/job-hunting/2026-06-07.md",
+              "date": "2026-06-07",
+              "label": "2026-06-07"
+            },
             {
               "name": "2026-06-06.md",
               "path": "reports/job-hunting/2026-06-06.md",
@@ -536,7 +548,7 @@
       "slug": "llm",
       "name": "大模型行业情报",
       "icon": "🤖",
-      "total": 81,
+      "total": 82,
       "latest_date": "2026-06-07",
       "months": [
         {
@@ -548,6 +560,12 @@
               "path": "reports/llm/2026-06-07.md",
               "date": "2026-06-07",
               "label": "2026-06-07"
+            },
+            {
+              "name": "2026-06-07-晚间增量.md",
+              "path": "reports/llm/2026-06-07-晚间增量.md",
+              "date": "2026-06-07",
+              "label": "2026-06-07-晚间增量"
             },
             {
               "name": "2026-06-06.md",
