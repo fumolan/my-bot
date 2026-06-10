@@ -1,17 +1,35 @@
 {
-  "updated": "2026-06-08T17:12:16.968481",
+  "updated": "2026-06-10T09:09:53.007126",
   "categories": [
     {
       "slug": "job-hunting",
       "name": "后端求职情报",
       "icon": "🔍",
-      "total": 91,
-      "latest_date": "2026-06-08",
+      "total": 94,
+      "latest_date": "2026-06-10",
       "months": [
         {
           "key": "2026-06",
           "label": "2026年06月",
           "items": [
+            {
+              "name": "2026-06-10.md",
+              "path": "reports/job-hunting/2026-06-10.md",
+              "date": "2026-06-10",
+              "label": "2026-06-10"
+            },
+            {
+              "name": "2026-06-09.md",
+              "path": "reports/job-hunting/2026-06-09.md",
+              "date": "2026-06-09",
+              "label": "2026-06-09"
+            },
+            {
+              "name": "2026-06-09-1700-后端求职情报日报-午间.md",
+              "path": "reports/job-hunting/2026-06-09-1700-后端求职情报日报-午间.md",
+              "date": "2026-06-09",
+              "label": "2026-06-09-1700-后端求职情报日报-午间"
+            },
             {
               "name": "2026-06-08-午间.md",
               "path": "reports/job-hunting/2026-06-08-午间.md",
@@ -578,18 +596,42 @@
       "slug": "llm",
       "name": "大模型行业情报",
       "icon": "🤖",
-      "total": 83,
-      "latest_date": "2026-06-08",
+      "total": 87,
+      "latest_date": "2026-06-10",
       "months": [
         {
           "key": "2026-06",
           "label": "2026年06月",
           "items": [
             {
+              "name": "2026-06-10.md",
+              "path": "reports/llm/2026-06-10.md",
+              "date": "2026-06-10",
+              "label": "2026-06-10"
+            },
+            {
+              "name": "2026-06-09.md",
+              "path": "reports/llm/2026-06-09.md",
+              "date": "2026-06-09",
+              "label": "2026-06-09"
+            },
+            {
+              "name": "2026-06-09-晚间.md",
+              "path": "reports/llm/2026-06-09-晚间.md",
+              "date": "2026-06-09",
+              "label": "2026-06-09-晚间"
+            },
+            {
               "name": "2026-06-08.md",
               "path": "reports/llm/2026-06-08.md",
               "date": "2026-06-08",
               "label": "2026-06-08"
+            },
+            {
+              "name": "2026-06-08-晚间.md",
+              "path": "reports/llm/2026-06-08-晚间.md",
+              "date": "2026-06-08",
+              "label": "2026-06-08-晚间"
             },
             {
               "name": "2026-06-07.md",
@@ -1103,13 +1145,25 @@
       "slug": "interview-qa",
       "name": "每日面试题",
       "icon": "📝",
-      "total": 32,
-      "latest_date": "2026-06-07",
+      "total": 34,
+      "latest_date": "2026-06-09",
       "months": [
         {
           "key": "2026-06",
           "label": "2026年06月",
           "items": [
+            {
+              "name": "2026-06-09-每日面试题.md",
+              "path": "reports/interview-qa/2026-06-09-每日面试题.md",
+              "date": "2026-06-09",
+              "label": "2026-06-09-每日面试题"
+            },
+            {
+              "name": "2026-06-08-每日面试题.md",
+              "path": "reports/interview-qa/2026-06-08-每日面试题.md",
+              "date": "2026-06-08",
+              "label": "2026-06-08-每日面试题"
+            },
             {
               "name": "2026-06-07-每日面试题.md",
               "path": "reports/interview-qa/2026-06-07-每日面试题.md",
