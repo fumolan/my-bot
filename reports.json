@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-20T11:36:42.270525",
+  "updated": "2026-06-20T20:33:06.124397",
   "categories": [
     {
       "slug": "job-hunting",
       "name": "后端求职情报",
       "icon": "🔍",
-      "total": 100,
+      "total": 103,
       "latest_date": "2026-06-20",
       "months": [
         {
@@ -13,10 +13,22 @@
           "label": "2026年06月",
           "items": [
             {
+              "name": "后端求职情报日报-2026-06-20-午间.md",
+              "path": "reports/job-hunting/后端求职情报日报-2026-06-20-午间.md",
+              "date": "2026-06-20",
+              "label": "后端求职情报日报-2026-06-20-午间"
+            },
+            {
               "name": "后端求职情报日报-2026-06-20-1130.md",
               "path": "reports/job-hunting/后端求职情报日报-2026-06-20-1130.md",
               "date": "2026-06-20",
               "label": "后端求职情报日报-2026-06-20-1130"
+            },
+            {
+              "name": "backend-job-report-2026-06-20.md",
+              "path": "reports/job-hunting/backend-job-report-2026-06-20.md",
+              "date": "2026-06-20",
+              "label": "backend-job-report-2026-06-20"
             },
             {
               "name": "backend-job-intel-2026-06-20.md",
@@ -29,6 +41,12 @@
               "path": "reports/job-hunting/2026-06-20.md",
               "date": "2026-06-20",
               "label": "2026-06-20"
+            },
+            {
+              "name": "2026-06-20-午间-后端求职情报日报.md",
+              "path": "reports/job-hunting/2026-06-20-午间-后端求职情报日报.md",
+              "date": "2026-06-20",
+              "label": "2026-06-20-午间-后端求职情报日报"
             },
             {
               "name": "2026-06-20-1100-后端求职情报日报-早间.md",
