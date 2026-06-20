@@ -1,11 +1,11 @@
 {
-  "updated": "2026-06-20T11:35:00.355341",
+  "updated": "2026-06-20T11:36:42.270525",
   "categories": [
     {
       "slug": "job-hunting",
       "name": "后端求职情报",
       "icon": "🔍",
-      "total": 99,
+      "total": 100,
       "latest_date": "2026-06-20",
       "months": [
         {
@@ -23,6 +23,12 @@
               "path": "reports/job-hunting/backend-job-intel-2026-06-20.md",
               "date": "2026-06-20",
               "label": "backend-job-intel-2026-06-20"
+            },
+            {
+              "name": "2026-06-20.md",
+              "path": "reports/job-hunting/2026-06-20.md",
+              "date": "2026-06-20",
+              "label": "2026-06-20"
             },
             {
               "name": "2026-06-20-1100-后端求职情报日报-早间.md",
