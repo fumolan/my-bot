@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T18:04:04.920020",
+  "updated": "2026-06-24T20:32:52.313174",
   "categories": [
     {
       "slug": "job-hunting",
@@ -818,13 +818,19 @@
       "slug": "llm",
       "name": "大模型行业情报",
       "icon": "🤖",
-      "total": 114,
-      "latest_date": "2026-06-23",
+      "total": 115,
+      "latest_date": "2026-06-24",
       "months": [
         {
           "key": "2026-06",
           "label": "2026年06月",
           "items": [
+            {
+              "name": "2026-06-24-晚间增量.md",
+              "path": "reports/llm/2026-06-24-晚间增量.md",
+              "date": "2026-06-24",
+              "label": "2026-06-24-晚间增量"
+            },
             {
               "name": "2026-06-23.md",
               "path": "reports/llm/2026-06-23.md",
