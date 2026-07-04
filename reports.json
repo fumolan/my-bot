@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T17:04:09.959289",
+  "updated": "2026-07-04T20:25:55.826545",
   "categories": [
     {
       "slug": "job-hunting",
@@ -1817,13 +1817,19 @@
       "slug": "interview-qa",
       "name": "每日面试题",
       "icon": "📝",
-      "total": 55,
-      "latest_date": "2026-07-03",
+      "total": 56,
+      "latest_date": "2026-07-04",
       "months": [
         {
           "key": "2026-07",
           "label": "2026年07月",
           "items": [
+            {
+              "name": "2026-07-04-每日面试题.md",
+              "path": "reports/interview-qa/2026-07-04-每日面试题.md",
+              "date": "2026-07-04",
+              "label": "2026-07-04-每日面试题"
+            },
             {
               "name": "2026-07-03-每日面试题.md",
               "path": "reports/interview-qa/2026-07-03-每日面试题.md",
