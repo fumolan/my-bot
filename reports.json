@@ -1,17 +1,23 @@
 {
-  "updated": "2026-07-10T09:03:28.246350",
+  "updated": "2026-07-10T17:01:59.853566",
   "categories": [
     {
       "slug": "job-hunting",
       "name": "后端求职情报",
       "icon": "🔍",
-      "total": 166,
+      "total": 167,
       "latest_date": "2026-07-10",
       "months": [
         {
           "key": "2026-07",
           "label": "2026年07月",
           "items": [
+            {
+              "name": "后端求职情报日报-2026-07-10-午间.md",
+              "path": "reports/job-hunting/后端求职情报日报-2026-07-10-午间.md",
+              "date": "2026-07-10",
+              "label": "后端求职情报日报-2026-07-10-午间"
+            },
             {
               "name": "2026-07-10.md",
               "path": "reports/job-hunting/2026-07-10.md",
